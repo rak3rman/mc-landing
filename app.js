@@ -63,7 +63,7 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 
 //Import Static Files to Webpages
-app.use('/static', express.static(process.cwd() + '/static'));
+app.use('/assets', express.static(process.cwd() + '/assets'));
 
 //End of Initialize Packages and Routers - - - - - - - -
 
@@ -110,7 +110,7 @@ let server = http.createServer(app);
 server.listen(storage.get('console_port'), function () {
     console.log(' ');
     console.log('============================================');
-    console.log('  Base-WebFramework-NodeJS | RAk3rman 2019  ');
+    console.log('         MC-Landing | RAk3rman 2019         ');
     console.log('============================================');
     console.log('Web Page Accessable at: ' + ip.address() + ":" + storage.get('console_port'));
     console.log(' ');
