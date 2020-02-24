@@ -31,36 +31,28 @@
                 <div class="logo"> <a href="/"><img src="/assets/images/logo-white.png" width="150" alt="" /></a> </div>
             </div>
         </div>
-        <!-- /div -->
         <div class="ml-auto mr-auto">
             <div class="h-100 d-flex flex-column justify-content-center inverse-text p-90 p-sm-0 text-center">
                 <h1 class="heading text-center"><i class="fas fa-exclamation-triangle"></i> <%= error.statusCode %> Error</h1>
                 <h2 class="sub-heading2"><%= error.message %></h2>
                 <div class="space10"></div>
-                <div class="d-inline-block"><a href="/"  class="btn btn-rounded btn-white btn-icon btn-icon-left"><i class="fas fa-home"></i>Return Home</a></div>
+                <a href="https://mc.rak3rman.com"><button class="btn btn-full-rounded btn-white"><i class="fas fa-share"></i> Return Home</button></a>
             </div>
         </div>
-        <!-- /div -->
         <div class="mt-auto ml-auto mr-auto w-100">
             <div class="container inner pt-30 pb-40">
                 <div class="space10"></div>
-                <p>© 2020 Radison Akerman. All rights reserved.</p>
+                <p>© <span id="year-cp"></span><script>var d = new Date();document.getElementById("year-cp").innerHTML = d.getFullYear()</script> Radison Akerman. All rights reserved.</p>
                 <ul class="social social-mute social-s">
                     <li><a href="https://github.com/RAK3RMAN"><i class="fab fa-github"></i></a></li>
                     <li><a href="https://www.facebook.com/RAkerman"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="https://www.instagram.com/rak3rman"><i class="fab fa-instagram"></i></a></li>
                     <li><a href="https://500px.com/rak3rman"><i class="fab fa-500px"></i></a></li>
-                    <li><a href="mailto:rak3rman@gmail.com"><i class="fas fa-envelope"></i></a></li>
                 </ul>
-                <!-- /.social -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /div -->
     </div>
-    <!-- /div -->
 </div>
-<!-- /.content-wrapper -->
 <script src="/assets/js/jquery.min.js"></script>
 <script src="/assets/js/popper.min.js"></script>
 <script src="/assets/js/bootstrap.min.js"></script>
@@ -68,16 +60,6 @@
 <script src="/assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
 <script src="/assets/revolution/revolution-addons/filmstrip/js/revolution.addon.filmstrip.min.js"></script>
 <script src="/assets/revolution/revolution-addons/typewriter/js/revolution.addon.typewriter.min.js"></script>
-<!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
-<!--<script src="/assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script src="/assets/revolution/js/extensions/revolution.extension.video.min.js"></script>-->
 <script src="/assets/js/plugins.js"></script>
 <script src="/assets/js/scripts.js"></script>
 <script>
